@@ -1,1 +1,46 @@
-hello
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 80vw;
+  font-family: "Ubuntu Sans", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  height: 67px;
+}
+
+.navbar li {
+  list-style: none;
+  margin: 0 12px;
+}
+
+.topLeft {
+  width: 50%;
+}
+
+.topRight {
+  width: 50%;
+}
+
+.section1 {
+  max-height: 100vh;
+}
+
+.logo {
+  font-size: 1.3rem;
+}
+
+.dumbellimg {
+  width: 89px;
+  padding: 20px 0;
+}
+
+.topRight .gymimg {
+  width: 400px;
+}
