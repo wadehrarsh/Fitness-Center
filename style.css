@@ -32,15 +32,95 @@
   max-height: 100vh;
 }
 
+.section1 h1 {
+  font-size: 2rem;
+}
+
 .logo {
   font-size: 1.3rem;
 }
 
 .dumbellimg {
-  width: 89px;
+  width: 289px;
   padding: 20px 0;
 }
 
 .topRight .gymimg {
   width: 400px;
+}
+
+.section2 {
+  padding: 63px;
+  padding-top: 0;
+}
+
+.section2 h1 {
+  font-size: 2.5rem;
+}
+
+.section2 p {
+  padding: 0 8vw;
+  text-align: center;
+}
+
+.box {
+  padding: 8px 0;
+  margin: 12px 22px;
+  min-width: 20vw;
+  border: 2px solid rgb(5, 5, 5);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.box h2 {
+  font-size: 2rem;
+  padding: 15px 0;
+}
+
+.highlighted {
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.box ul {
+  list-style-type: none;
+}
+
+.box ul li {
+  margin: 12px 2px;
+}
+
+.plantable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section3 table {
+  width: 100%;
+  margin-bottom: 140px;
+  border-collapse: collapse;
+}
+
+.section3 table th {
+  width: 23vw;
+  border-bottom: 2px solid black;
+  padding: 15px 0;
+}
+
+.section3 table td {
+  border-bottom: 2px solid black;
+}
+
+.section3 h1 {
+  font-size: 2.3rem;
+}
+
+.section3 {
+  padding-bottom: 63px;
+}
+
+footer {
+  padding: 24px;
+  text-align: center;
 }
